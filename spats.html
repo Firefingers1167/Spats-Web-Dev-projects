@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+    .all {
+        
+        animation: sty 5s infinite;
+    }
+    @keyframes sty {
+        0% {background-color: purple;}
+        25%   {background-color: yellow;}
+        75%   {background-color:royalblue;}
+        100%   {background-color: purple;}
+        
+    }
+    .font1
+    {
+        font-family: "Lobster","sans-serif";
+    }
+    
+.thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    background-color: chartreuse;
+    margin: 10px;
+    padding: 10px;
+  }
+  .thin-blue-border {
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    background-color: chocolate;
+    margin: 10px;
+    padding: 10px;
+  }
+</style>
+<head>
+    <title>
+        Spats project
+    </title>
+</head>
+<body class="all">
+    <img src="kgp.jfif" alt="IIT KGP LOGO" width="200px" height="200px">
+    <img src="startup.jfif" alt="IIT KGP LOGO" width="200px" height="200px">
+    <h1 style="" >STARTUP YOJHNA IIT KGP PORTAL</h1>
+<form>
+    <p id="data1" class="thin-red-border font1" >
+    <label for="name"><b>Full Name:</b></label><br>
+    <input class="text" id="name" name="Name:" required placeholder="Your full name as registered in erp" size="30"><br><br>
+    <label for="roll"><b>Roll Number:</b></label><br>
+    <input class="text" id="roll" name="Roll:" required><br><br>
+    <label for="dept"><b>Department:</b></label><br>
+    <input class="text" id="dept" name="Dept" required ><br><br>
+    <label for="year"><b>Year:</b></label><br>
+    <input id="year" name="Year:" type="number" max="5" min="0" required><br><br>
+    </p>
+    <p id="data2" class="thin-blue-border font1">
+    <label for="startup"><i>Startup Idea:</i></label><br>
+    <textarea id="startup" name="Startup"> </textarea><br><br>
+    <label for="doc"><i>Supporting documents:</i></label><br>
+    <input type="file" id="doc" name="Doc:" multiple required><br><br>
+    <label for="doc1"><i>Professor recommendation letter:</i></label><br>
+    <input type="file" id="doc1" name="Doc1:" multiple required><br>
+    <label for="fund"><i>Funding :</i></label><br>
+    <input class="text" id="fund" name="Fund:" required placeholder="in INR"><br>
+    </p>
+    <input type="submit">
+</form>
+</body>
