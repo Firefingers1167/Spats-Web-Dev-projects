@@ -1,0 +1,34 @@
+body
+{
+    background-image: url(img4.jfif);
+    font-family: 'Montserrat', sans-serif;
+}
+.flexbox {
+    display: inline-flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #f1f1f1;
+    margin: 7% ;
+    background-image: url(pictur.png);
+    background-size: 100% 100%;
+  }
+   .Shell:hover
+   {
+   transform: scale(1.1,1.1);
+    
+   }
+   .Shellplus:hover
+   {
+    transform: scale(1.5,1.5);
+   }
+  
+  .flexbox > div {
+    margin: 10px;
+    text-align: center;
+    font-size: 15 px;
+  }
+  .flexbox>div.relative
+  {
+      position: relative;
+      left: 70px;
+  }
