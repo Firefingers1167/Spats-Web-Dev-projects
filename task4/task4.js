@@ -1,0 +1,1 @@
+HOME="<ul> <li>spot1</li> <li>spot2</li> <li>spot1</li> <li>spot3</li> </ul> "
