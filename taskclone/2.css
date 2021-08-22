@@ -120,6 +120,25 @@ form label {
 #arrow:active {
   transform: translateX(30px);
 }
+.Submenu-1 {
+  display: none;
+}
+
+.Submenu-1 ul li {
+  background-color: white;
+  list-style: none;
+  color: black;
+}
+
+.Submenu-1 ul li:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1, 1.1);
+}
+
+.Submenu-1 ul li:last-child {
+  border-bottom: none;
+}
 @media screen and (max-width: 56.2rem) {
   * {
     box-sizing: border-box;
