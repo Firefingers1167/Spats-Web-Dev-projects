@@ -1,6 +1,5 @@
 # Spats-web-dev-projects
-MY Github page consists of my basic web pages and programs given as tasks every week ,
-i hope to publish some masterpieces in this very page in upcoming years,
-pls stay constantly tuned to my works.
-yours friendly,
+MY Github page consists of my basic web pages and programs, pls keep following my work
+I will soon entertain you with some masterpieces in this very page in the upcoming years,
+Yours friendly,
 Firefingers1167
