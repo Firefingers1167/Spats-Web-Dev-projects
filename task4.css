@@ -88,7 +88,30 @@ body {
 .Submenu-1 ul li:last-child {
   border-bottom: none;
 }
-
+ .Submenu-1 {
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 0.625rem;
+    transform: translate(68%, -20%);
+  }
+  .navi ul li:hover > .Submenu-1 ul li {
+    opacity: 0;
+    animation: anima 0.5s linear 0.2s 1 forwards;
+    display: block;
+    z-index: 2;
+  }
+@keyframes anima {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      list-style: none;
+      color: black;
+    }
+  }
+  
 @media screen and (max-width: 56.2rem) {
   * {
     box-sizing: border-box;
